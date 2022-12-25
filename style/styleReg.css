@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Nunito:wght@500&display=swap');
+:root{
+    --orange: #ffa500;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    text-transform: capitalize;
+    outline: none; border: none;
+}
+*::selection{
+    background: var(--orange);
+    color: #fff;
+}
+body{
+    background-color: rgba(255, 165, 0, .2);
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    padding: 2.5rem;
+}
+.heading span{
+    font-size: 3.5rem;
+    background: rgba(252, 166, 8, 0.2);
+    color: var(--orange);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+.heading span.space{
+    background: none;
+}
+.register .box p{
+    text-align: center;
+    padding: 2rem 9%;
+    color: #00ff04;
+}
+.register .box{
+    flex:1 1 50rem;
+    padding:2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+.register form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    width: 50rem;
+}
+.register form .box .boxC{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    margin: .6rem 0;
+}
+.register form .box .boxC label{
+    display: inline-block;
+    width: 100px;
+}
+.register form .box .btn{
+ background-color: #ffa500;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: .5rem;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;  
+}
+.register form .box .btn:hover{
+    color: #333;
+    text-decoration: underline;
+}
+
+input[type=text]{
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+input[type=password]{
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+   

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Travel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--scc link-->
+    <link rel="stylesheet" href="style/styleContact.css">
+</head>
+<body>
+      <!--header section start-->
+      <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#review">review</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+      <!--header section ends-->
+
+<!--login form container-->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input id="email" type="text" class="box" name="email" placeholder="Enter Email">
+        <input id="password" type="password" class="box" name="password" placeholder="enter your password">
+        <input type="submit" value="login now " class="btn"  onclick="validate()">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="register.html">register now</a></p>
+    </form>
+
+</div>
+<!--contact section start-->
+<div class="box-map">
+<iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1790.2287303651797!2d20.652138294237627!3d42.40050524444501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353a3ba2f86a9a3%3A0x3a75ac91014b3bdd!2sRahovec!5e0!3m2!1sen!2s!4v1671977332721!5m2!1sen!2s"
+ width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!---contact section ends-->
+     <!--footer section start-->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi distinctio maxime voluptate fugiat non illo neque dolores eaque, sit temporibus id nemo, natus suscipit pariatur nihil beatae. Aliquam, consectetur asperiores.
+            </p>
+        </div>
+        <div class="box">
+           <h3>branch locations</h3>
+           <a href="#">Kosova</a>
+           <a href="#">USA</a>
+           <a href="#">japan</a>
+           <a href="#">france</a>
+       </div>
+       <div class="box">
+           <h3>quick links</h3>
+           <a href="#">home</a>
+           <a href="#">book</a>
+           <a href="#">packages</a>
+           <a href="#">services</a>
+           <a href="#">gallery</a>
+           <a href="#">review</a>
+           <a href="#">contact</a>
+       </div>
+       <div class="box">
+           <h3>follow us</h3>
+           <a href="#">facebook</a>
+           <a href="#">instagram</a>
+           <a href="#">twitter</a>
+           <a href="#">linkedin</a>
+       </div>
+
+   </div>
+
+    </div>
+</section>
+ <!--footer section ends-->
+     <script src="js/ContactScript.js"></script>
+</body>
+</html>

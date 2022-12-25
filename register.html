@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--scc link-->
+    <link rel="stylesheet" href="style/styleReg.css">
+
+</head>
+<body>
+    <header>
+        <section class="register" id="register">
+            <h3 class="heading">
+                <span>R</span>
+                <span>e</span>
+                <span>g</span>
+                <span>i</span>
+                <span>s</span>
+                <span>t</span>
+                <span>e</span>
+                <span>r</span>
+                <span class="space"></span>
+                <span>N</span>
+                <span>o</span>
+                <span>w</span>
+            </h3>
+        </section>
+    </header>
+    <div class="register">
+        <form action="">
+            <div class="box">
+              
+                <p>Please fill in this form to create</p>
+                <hr>
+                <div class="boxC">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+                </div>
+                <div class="boxC">
+                <label for="Surname"><b>Surname</b></label>
+                <input type="text" placeholder="Enter Surname" name="Surname" id="Surname" required>
+                </div>
+                <div class="boxC">
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+                </div>
+                <div class="boxC">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                </div>
+                <div class="boxC">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                </div>
+                <div class="boxC">
+                <label for="psw-repeat"><b>Repeat</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                </div>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <input type="submit" value="register now" class="btn" onclick="validate()">
+            </div>
+        </form>
+    </div>
+  <!--services section ends-->
+  <script src="js/registerScript.js"></script>   
+</body>
+</html>
