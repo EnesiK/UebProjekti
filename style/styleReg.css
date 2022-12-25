@@ -35,7 +35,6 @@ section{
 .register .box p{
     text-align: center;
     padding: 2rem 9%;
-    color: #00ff04;
 }
 .register .box{
     flex:1 1 50rem;
