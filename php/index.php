@@ -12,7 +12,7 @@
 		/* Style the links in the navigation bar */
 		nav a {
 			float: left;
-			color: white;
+			color: white:
 			text-align: center;
 			padding: 14px 16px;
 			text-decoration: none;
