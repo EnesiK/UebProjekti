@@ -4,7 +4,6 @@
 	<title>My Website</title>
 	<style>
 		/* Add some basic styling to the navigation bar */
-		/*sdjhfsdjhfkjsdhkfsaldkjfh*/
 		nav {
 			background-color: #333;
 			overflow: hidden;
